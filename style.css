@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+    background-color: antiquewhite;
+}
+
+#bar-fixa {
+    width: 100%;
+    background-color: rgb(59, 152, 59);
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    display: inline-block;
+    position: sticky;
+    top: 0px;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.img {
+    width:100px ;
+    display: inline-block;
+}
+nav {
+    display: inline-block;
+}
+
+.link:hover {
+    text-decoration: overline;
+    font-size: 18px;
+}
+.link {
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+}
+
+.fundo {
+    background-color: rgb(250, 239, 225);
+    
+    border-radius: 10px;
+    padding: 20px;
+    margin:auto;
+    max-width: 85%;
+}
+
+h1 {
+    letter-spacing: 10px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.introducao {
+    margin: auto;
+    width: 70%;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+hr {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 80%;
+    border-color: green;
+    border-width: 5px;
+    border-image: linear-gradient(to right, rgb(250, 239, 225), green, rgb(250, 239, 225)) 1;
+}
+
+.informação {
+    margin: auto;
+    width: 70%;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+h2 {
+    font-size: 30px;
+    margin: 0 80px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
